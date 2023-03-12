@@ -6,7 +6,7 @@ import optionsLiquidation from "@utils/optionsLiquidation";
 
 function FormCalculator({type}: { type: boolean }) {
 
-    const handleCalculate = (event : React.FormEvent<HTMLSelectElement>) => {
+    const handleCalculate = (event : React.FormEvent<HTMLFormElement>) => {
         event.preventDefault();
         console.log('Calculando...')
     }

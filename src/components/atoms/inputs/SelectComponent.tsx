@@ -10,7 +10,7 @@ type SelectComponentProps = {
 const SelectComponent =({label, name, placeholder, options} : SelectComponentProps) => {
     const [selectedOption, setSelectedOption] = useState<string>('');
 
-    const handleOptionChange = (event :  React.ChangeEvent<HTMLSelectElement>) => {
+    const handleOptionChange = (event :  React.FormEvent<HTMLFormElement>) => {
         setSelectedOption(event.target.value);
     };
 
