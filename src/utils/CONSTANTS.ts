@@ -1,0 +1,4 @@
+export const SALARYBASIC = 1160000;
+export const ALLCOSTPERCENTAGE = 0.0025;
+export const WORKERPERCENTAGE = 0.01;
+export const NUMBEROFWORKERS = 40;

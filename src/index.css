@@ -5,3 +5,7 @@
 body {
     background-color: #f2f2f2;
 }
+
+.min-height-custom {
+    min-height: calc(100vh - 136px);
+}

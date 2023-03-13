@@ -5,7 +5,7 @@ function CalculatorHeader({setState} : {setState: (value: boolean) => void}) : J
     return (
         <div
             className={
-                "mt-10 mb-5 mx-4 rounded-lg p-4 bg-white lg:w-3/6 lg:mx-auto flex flex-col items-center justify-center"
+                "mb-5 mx-4 rounded-lg p-4 bg-white lg:w-3/6 lg:mx-auto flex flex-col items-center justify-center"
             }
         >
             <h2 className={

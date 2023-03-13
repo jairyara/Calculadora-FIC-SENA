@@ -13,7 +13,7 @@ const Footer = () : JSX.Element => {
         >
             <h3
                 className={
-                "text-center text-white text-lg"
+                "text-center text-white text-sm"
                 }
             >
                 Hecho con ❤️ por <a target='_blank' href="https://jairyara.com/">Jair Yara</a> - { year }
